@@ -12,8 +12,8 @@ body {
   color: $darkGrayishBlue;
 
   &--1 {
-    font-size: 3rem;
-    letter-spacing: -3.5%;
+    font-size: 3.625rem;
+    letter-spacing: -3%;
 
     @include media(">=phone", "<tablet") {
       font-size: 2.25rem;
