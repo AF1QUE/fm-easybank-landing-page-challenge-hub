@@ -1,0 +1,61 @@
+// Available font weights: 300, 400, 700
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.125rem;
+}
+
+.heading {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
+  line-height: auto;
+  color: $darkGrayishBlue;
+
+  &--1 {
+    font-size: 3rem;
+    letter-spacing: -3.5%;
+
+    @include media(">=phone", "<tablet") {
+      font-size: 2.25rem;
+    }
+  }
+
+  &--2 {
+    font-size: 2.375rem;
+    letter-spacing: -4%;
+
+    @include media(">=phone", "<tablet") {
+      font-size: 1.875rem;
+    }
+  }
+
+  &--3 {
+    font-size: 1.625rem;
+    letter-spacing: -5.5%;
+
+    @include media(">=phone", "<tablet") {
+      font-size: 1.625rem;
+    }
+  }
+
+  &--4 {
+    font-size: 1.625rem;
+    letter-spacing: -5.5%;
+
+    @include media(">=phone", "<tablet") {
+      font-size: 1.625rem;
+    }
+  }
+}
+
+.paragraph {
+  font-size: 1.125rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.75rem;
+  color: $grayishBlue;
+
+  @include media(">=phone", "<tablet") {
+    text-align: center;
+  }
+}
